@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh & Fit - Healthy Food Blog</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>🥗 Fresh & Fit - Healthy Food Blog</h1>
+
+        <nav>
+            <a href="#healthy-food">Healthy Food</a> |
+            <a href="#daily-tips">Daily Tips</a> |
+            <a href="#video">Health Video</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="healthy-food">
+
+            <h2>Healthy Eating Habits</h2>
+
+            <article>
+
+                <h3>Choose Fresh and Natural Foods</h3>
+
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=350&h=220&fit=crop"
+                        alt="Fresh fruits and vegetables"
+                        width="350"
+                        height="220">
+
+                    <figcaption>
+                        Fresh fruits and vegetables provide important vitamins and minerals.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    Eating fresh fruits and vegetables every day helps our body stay healthy,
+                    improves our immune system, and gives us energy for school and sports.
+                </p>
+
+                <p>
+                    Learn more about healthy eating:
+                    <a href="https://www.eatright.org/" target="_blank">
+                        EatRight
+                    </a>
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>Eat a Healthy Breakfast</h3>
+
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=350&h=220&fit=crop"
+                        alt="Healthy breakfast"
+                        width="350"
+                        height="220">
+
+                    <figcaption>
+                        A nutritious breakfast is the best way to begin your day.
+                    </figcaption>
+                </figure>
+
+                <p>
+                    A healthy breakfast improves concentration, provides energy,
+                    and helps students stay active throughout the day.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section id="daily-tips">
+
+            <h2>Healthy Lifestyle Tips</h2>
+
+            <article>
+
+                <h3>💧 Drink More Water</h3>
+
+                <p>
+                    Water keeps our body hydrated and helps us stay fresh and focused.
+                    Drinking 6–8 glasses of water every day is a healthy habit.
+                </p>
+
+            </article>
+
+            <article>
+
+                <h3>🏃 Exercise Every Day</h3>
+
+                <p>
+                    Walking, cycling, playing outdoor games, or doing yoga for at least
+                    30 minutes every day keeps our body strong and healthy.
+                </p>
+
+            </article>
+
+        </section>
+
+        <aside>
+
+            <h2>⭐ Health Reminder</h2>
+
+            <p>
+                Avoid eating too much junk food. Try to include fruits, vegetables,
+                milk, eggs, pulses, and whole grains in your daily diet.
+            </p>
+
+            <p>
+                Visit this website for more health tips:
+                <a href="https://www.healthline.com/nutrition" target="_blank">
+                    Healthline Nutrition
+                </a>
+            </p>
+
+        </aside>
+
+        <section id="video">
+
+            <h2>🎥 Healthy Eating Video</h2>
+
+            <p>
+                Watch this educational video to learn why healthy food is important.
+            </p>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/xyQY8a-ng6g"
+                title="Healthy Eating Video"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>📧 Contact Us</h2>
+
+            <p>
+                We'd love to hear your healthy food ideas and recipes!
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:freshfitblog@example.com">
+                    freshfitblog@example.com
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <hr>
+
+        <p>
+            <strong>Fresh & Fit - Healthy Food Blog</strong><br>
+            Eat Healthy • Stay Active • Live Happily
+        </p>
+
+        <p>
+            © 2026 Fresh & Fit Blog. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
