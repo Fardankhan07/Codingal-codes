@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doraemon Fan Page</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:linear-gradient(to right,#6dd5fa,#2980b9);
+            color:#222;
+        }
+
+        header{
+            background:#0b5ed7;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#ffffff;
+            text-align:center;
+            padding:12px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:#0b5ed7;
+            font-weight:bold;
+            margin:15px;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+        }
+
+        section{
+            background:white;
+            margin:20px 0;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0 0 15px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color:#0b5ed7;
+        }
+
+        img{
+            border-radius:15px;
+            margin:10px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        table,th,td{
+            border:2px solid #0b5ed7;
+        }
+
+        th{
+            background:#0b5ed7;
+            color:white;
+        }
+
+        th,td{
+            padding:10px;
+            text-align:center;
+        }
+
+        iframe{
+            border-radius:12px;
+        }
+
+        footer{
+            background:#0b5ed7;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        .center{
+            text-align:center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>💙 Doraemon Fan Page 💙</h1>
+
+<p>Welcome to the wonderful world of Doraemon!</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#gadgets">Gadgets</a>
+<a href="#video">Video</a>
+
+</nav>
+
+<div class="container">
+
+<section id="about">
+
+<h2>🤖 About Doraemon</h2>
+
+<p>
+Doraemon is a friendly robotic cat from the future who travels back in time
+to help Nobita. He uses amazing gadgets from his 4D Pocket to solve problems,
+teach important life lessons, and create exciting adventures.
+</p>
+
+</section>
+
+<section id="gallery">
+
+<h2>📸 Doraemon Gallery</h2>
+
+<div class="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png"
+width="220" alt="Doraemon">
+
+<img src="https://upload.wikimedia.org/wikipedia/en/5/53/NobitaNobi.png"
+width="180" alt="Nobita">
+
+<img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Dorami.png"
+width="180" alt="Dorami">
+
+</div>
+
+</section>
+
+<section id="gadgets">
+
+<h2>✨ Doraemon's Famous Gadgets</h2>
+
+<ul>
+<li>🚪 Anywhere Door</li>
+<li>🚁 Take-Copter</li>
+<li>⏰ Time Machine</li>
+<li>📖 Translation Jelly</li>
+<li>🔦 Small Light & Big Light</li>
+<li>🍞 Memory Bread</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>🌟 Main Characters</h2>
+
+<table>
+
+<tr>
+<th>Character</th>
+<th>Role</th>
+<th>Favourite Thing</th>
+</tr>
+
+<tr>
+<td>Doraemon</td>
+<td>Robot Cat</td>
+<td>Dorayaki</td>
+</tr>
+
+<tr>
+<td>Nobita</td>
+<td>Main Boy</td>
+<td>Sleeping & Playing</td>
+</tr>
+
+<tr>
+<td>Shizuka</td>
+<td>Kind Friend</td>
+<td>Reading & Music</td>
+</tr>
+
+<tr>
+<td>Gian</td>
+<td>Strong Friend</td>
+<td>Singing</td>
+</tr>
+
+<tr>
+<td>Suneo</td>
+<td>Rich Friend</td>
+<td>Showing His Toys</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="video">
+
+<h2>🎥 Watch Doraemon</h2>
+
+<p>Enjoy a Doraemon video below.</p>
+
+<div class="center">
+
+<iframe width="560"
+height="315"
+src="https://www.youtube.com/embed/YzQnN4Qf3LQ"
+title="Doraemon Video"
+allowfullscreen>
+</iframe>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>💙 Why I Like Doraemon</h2>
+
+<p>
+Doraemon teaches us the importance of friendship, honesty, kindness, and
+never giving up. Every episode is full of fun, imagination, and valuable
+life lessons that inspire children around the world.
+</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>⭐ Made with HTML & CSS | Doraemon Fan Page ⭐</p>
+
+<p>Created by <b>Fardan Khan</b></p>
+
+</footer>
+
+</body>
+
+</html>
