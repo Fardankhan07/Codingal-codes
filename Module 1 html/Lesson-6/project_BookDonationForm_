@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Donation Form</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 550px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #2E8B57;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+
+        fieldset {
+            border: 2px solid #2E8B57;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+
+        legend {
+            color: #2E8B57;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email],
+        input[type=date],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        input[type=submit],
+        input[type=reset] {
+            background: #2E8B57;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type=submit]:hover,
+        input[type=reset]:hover {
+            background: #1f6b44;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 15px;
+            color: gray;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Book Donation Form</h1>
+
+        <p>
+            Thank you for donating books! Your contribution helps students
+            learn, grow, and build a brighter future.
+        </p>
+
+        <form>
+
+            <fieldset>
+
+                <legend>👤 Donor Information</legend>
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your full name">
+
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Donor ID</label>
+                <input type="password" placeholder="Enter your donor ID">
+
+                <label>Donation Date</label>
+                <input type="date">
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>📖 Book Information</legend>
+
+                <label>Book Category</label>
+
+                <select>
+                    <option>Select a Category</option>
+                    <option>Fiction</option>
+                    <option>Science</option>
+                    <option>History</option>
+                    <option>Education</option>
+                    <option>Comics</option>
+                    <option>Story Books</option>
+                </select>
+
+                <label>Book Condition</label><br>
+
+                <input type="radio" name="condition"> Excellent<br>
+                <input type="radio" name="condition"> Good<br>
+                <input type="radio" name="condition"> Fair<br><br>
+
+                <label>Book Title / Author</label>
+
+                <textarea rows="4" placeholder="Enter the book title, author's name or any additional information..."></textarea>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>📅 Preferred Drop-Off Day</legend>
+
+                <input type="checkbox"> Monday<br>
+                <input type="checkbox"> Tuesday<br>
+                <input type="checkbox"> Wednesday<br>
+                <input type="checkbox"> Friday<br>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>💬 Your Message</legend>
+
+                <textarea rows="3" placeholder="Write a short message for the library..."></textarea>
+
+            </fieldset>
+
+            <div class="buttons">
+
+                <input type="submit" value="📚 Donate Now">
+
+                <input type="reset" value="🔄 Reset Form">
+
+            </div>
+
+        </form>
+
+        <footer>
+
+            ❤️ Every donated book can change someone's future.<br>
+            <b>Thank you for your kindness!</b>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
