@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤️ SkyCast Pro Weather App</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4facfe, #00c6fb, #43e97b);
+            min-height: 100vh;
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #FFD54F;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .subtitle {
+            font-size: 18px;
+            margin: 15px 0 30px;
+        }
+
+        .weather-card {
+            width: 430px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.20);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .weather-card:hover {
+            transform: scale(1.03);
+        }
+
+        .icon {
+            font-size: 80px;
+            animation: float 2s infinite alternate;
+        }
+
+        #temp {
+            font-size: 60px;
+            color: #FFF176;
+            font-weight: bold;
+        }
+
+        .details {
+            font-size: 18px;
+            margin: 8px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #FFF9C4;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+            color: #0D47A1;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        th {
+            background: #1565C0;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #E3F2FD;
+        }
+
+        .tips {
+            width: 80%;
+            margin: 35px auto;
+            background: rgba(255, 255, 255, 0.20);
+            padding: 20px;
+            border-radius: 18px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tips ul {
+            list-style: none;
+            font-size: 18px;
+            line-height: 2;
+        }
+
+        .info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.20);
+            width: 180px;
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .box h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        @keyframes float {
+            from {
+                transform: translateY(0);
+            }
+
+            to {
+                transform: translateY(15px);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>🌈🌤️ SkyCast Pro Weather App ⛅🌦️</h1>
+
+    <p class="subtitle">
+        Stay informed with live weather updates and plan your day with confidence.
+    </p>
+
+    <div class="weather-card">
+
+        <h2>🌍 Today's Weather</h2>
+
+        <div class="icon">⛅</div>
+
+        <p id="temp">29°C</p>
+
+        <p class="details">📍 City: Mumbai</p>
+
+        <p class="details">🌤️ Condition: Partly Cloudy</p>
+
+        <p class="details">💧 Humidity: 68%</p>
+
+        <p class="details">🌬️ Wind Speed: 14 km/h</p>
+
+        <p class="details">🌅 Sunrise: 6:08 AM</p>
+
+        <p class="details">🌇 Sunset: 7:15 PM</p>
+
+    </div>
+
+    <h2>📅 Weekly Forecast</h2>
+
+    <table>
+
+        <tr>
+            <th>Day</th>
+            <th>Weather</th>
+            <th>Temperature</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>☀️ Sunny</td>
+            <td>31°C</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>🌤️ Partly Cloudy</td>
+            <td>29°C</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>🌧️ Rainy</td>
+            <td>25°C</td>
+        </tr>
+
+        <tr>
+            <td>Thursday</td>
+            <td>🌬️ Windy</td>
+            <td>27°C</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>⛈️ Thunderstorm</td>
+            <td>24°C</td>
+        </tr>
+
+    </table>
+
+    <div class="info">
+
+        <div class="box">
+            <h3>🌡️ Feels Like</h3>
+            <p>31°C</p>
+        </div>
+
+        <div class="box">
+            <h3>☀️ UV Index</h3>
+            <p>High (7)</p>
+        </div>
+
+        <div class="box">
+            <h3>🌬️ Air Quality</h3>
+            <p>Good 😊</p>
+        </div>
+
+        <div class="box">
+            <h3>🌙 Moon Phase</h3>
+            <p>Waxing Crescent</p>
+        </div>
+
+    </div>
+
+    <div class="tips">
+
+        <h2>🌈 Weather Safety Tips</h2>
+
+        <ul>
+            <li>☂️ Carry an umbrella during rainy weather.</li>
+            <li>💧 Drink plenty of water to stay hydrated.</li>
+            <li>🧴 Use sunscreen before going outdoors.</li>
+            <li>🧢 Wear a cap and sunglasses on sunny days.</li>
+            <li>📱 Check the forecast before travelling.</li>
+        </ul>
+
+    </div>
+
+    <footer>
+
+        <p>📡 Last Updated: Today • 9:30 AM</p>
+
+        <p>🌍 Powered by HTML & CSS</p>
+
+        <p>❤️ Have a Sunny Day! ❤️</p>
+
+        <p><strong>Created by Fardan Khan</strong></p>
+
+    </footer>
+
+</body>
+
+</html>
