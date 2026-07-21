@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 2 - Lesson 3 Activity 1 - My Superhero Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        /* Typography — font, size, weight, colour for the whole page */
+        body {
+            background-color: darkblue;
+            color: white;
+            font-family: "playwrite id";
+        }
+
+
+        /* Typography + Text Shadow — big bold title with an orange shadow */
+        .hero-name {
+            font-size: 4rem;
+            color:red;
+            text-shadow: 3px 3px yellow;
+        }
+
+
+        /* Typography + Text Transform — tagline becomes Title Case */
+        .tagline {
+            font-style: italic;
+            color:aquamarine;
+            text-transform:capitalize;
+            letter-spacing: 2px;
+        }
+
+
+        /* Text Transform + Text Decoration — section headings in CAPS with underline */
+        .label {
+            text-transform:uppercase;
+            text-decoration:underline dotted aquamarine;
+            color:greenyellow;
+        }
+
+
+        /* Typography — powers stand out in bold green */
+        .power {}
+
+
+        /* Text Decoration — weaknesses are crossed out */
+        .weakness {
+            text-decoration: line-through;
+            color:green;
+        }
+
+
+        /* Transform — the badge is tilted to the side */
+        .badge {
+            font-size:28px;
+            font-weight:bold;
+            color:aqua;
+            background-color:black;
+            display: inline-block;
+            transform: rotate(7deg);
+        }
+
+        .badge:hover {
+            transform:rotate(10deg)
+        }
+
+
+        /* Typography — footer text */
+        .made-by {
+            color:aquamarine;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="hero-name">Thunder Kid</h1>
+    <p class="tagline">the most powerful hero in the school</p>
+
+    <h2 class="label">super powers</h2>
+    <p class="power">Can run faster than a cheetah</p>
+    <p class="power">Can lift a school bus</p>
+
+    <h2 class="label">weaknesses</h2>
+    <p class="weakness">Maths homework</p>
+    <p class="weakness">Broccoli</p>
+
+    <div class="badge">Best Superhero</div>
+
+    <p class="made-by">Created by Fardan.Khan...</p>
+</body>
+
+</html>
