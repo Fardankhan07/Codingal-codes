@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍴 Delicious Delight Restaurant</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 30px;
+        }
+
+        .menu-card {
+            width: 700px;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .restaurant-name {
+            text-align: center;
+            font-size: 45px;
+            color: #d84315;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 5px #ffc107;
+        }
+
+        .tagline {
+            text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            color: #795548;
+            margin: 10px 0 25px;
+        }
+
+        .menu-section {
+            border: 2px solid #ffcc80;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fffaf0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 28px;
+            color: #ff5722;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .dish-name {
+            font-size: 21px;
+            font-weight: bold;
+            color: #3f51b5;
+            margin-top: 10px;
+            transition: .3s;
+        }
+
+        .dish-name:hover {
+            color: #e91e63;
+            transform: translateX(10px);
+        }
+
+        .dish-description {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .offer {
+            background: #ff1744;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 12px;
+            margin: 20px 0;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+
+            50% {
+                opacity: .6;
+            }
+
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="menu-card">
+
+        <h1 class="restaurant-name">🍽️ Delicious Delight 🍽️</h1>
+
+        <p class="tagline">"Serving Happiness One Plate at a Time!" 😊</p>
+
+        <div class="menu-section">
+
+            <h2 class="section-title">🥗 Starters</h2>
+
+            <p class="dish-name">🧄 Cheesy Garlic Bread</p>
+            <p class="dish-description">
+                Freshly baked bread topped with garlic butter, herbs, and melted mozzarella cheese.
+            </p>
+
+            <p class="dish-name">🌽 Crispy Corn Cups</p>
+            <p class="dish-description">
+                Golden crispy corn served with spicy mayonnaise and tangy seasoning.
+            </p>
+
+        </div>
+
+        <div class="menu-section">
+
+            <h2 class="section-title">🍕 Main Course</h2>
+
+            <p class="dish-name">🍝 White Sauce Pasta</p>
+            <p class="dish-description">
+                Creamy Italian pasta mixed with vegetables, herbs, and extra cheese.
+            </p>
+
+            <p class="dish-name">🍕 Farm Fresh Pizza</p>
+            <p class="dish-description">
+                Loaded with fresh vegetables, olives, sweet corn, and delicious cheese.
+            </p>
+
+            <p class="dish-name">🍔 Veg Supreme Burger</p>
+            <p class="dish-description">
+                A soft burger filled with crispy patty, cheese, lettuce, and tasty sauces.
+            </p>
+
+        </div>
+
+        <div class="menu-section">
+
+            <h2 class="section-title">🥤 Refreshing Drinks</h2>
+
+            <p class="dish-name">🥭 Mango Smoothie</p>
+            <p class="dish-description">
+                Fresh mangoes blended with chilled milk and ice cream.
+            </p>
+
+            <p class="dish-name">🍋 Fresh Lemon Mojito</p>
+            <p class="dish-description">
+                A refreshing drink with mint leaves and lemon.
+            </p>
+
+        </div>
+
+        <div class="menu-section">
+
+            <h2 class="section-title">🍰 Desserts</h2>
+
+            <p class="dish-name">🍫 Chocolate Lava Cake</p>
+            <p class="dish-description">
+                Warm chocolate cake with a rich molten chocolate centre.
+            </p>
+
+            <p class="dish-name">🍨 Vanilla Ice Cream</p>
+            <p class="dish-description">
+                Creamy vanilla ice cream served with chocolate syrup.
+            </p>
+
+        </div>
+
+        <div class="offer">
+            🎉 Today's Special Offer 🎉<br>
+            Buy 2 Main Courses & Get 1 Dessert FREE! 🍰
+        </div>
+
+        <div class="footer">
+
+            <h3>👨‍🍳 Chef's Recommendation</h3>
+
+            <p>
+                ⭐ White Sauce Pasta + Mango Smoothie + Chocolate Lava Cake ⭐
+            </p>
+
+            <br>
+
+            <p>📍 Visit Again • Thank You for Dining With Us ❤️</p>
+
+            <p><strong>Created by Fardan Khan</strong></p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
